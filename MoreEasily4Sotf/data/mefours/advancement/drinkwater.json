@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:potion"
+      },
+      "title": "水分補給",
+      "description": "熱中症にご注意を(水入り瓶を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:adventure/honey_block_slide",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:potion"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "loot": [
+        "minecraft:potion"
+      ]
+    },
+    "sends_telemetry_event": true
+  }
+  
