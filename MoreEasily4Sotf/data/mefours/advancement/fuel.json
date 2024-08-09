@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:coal_block"
+      },
+      "title": "燃料！",
+      "description": "重要なものとなるだろう。(石炭を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:firststep",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:coal_ore"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "loot": [
+        "minecraft:blocks/coal_block"
+      ]
+    },
+    "sends_telemetry_event": true
+  }
+  
