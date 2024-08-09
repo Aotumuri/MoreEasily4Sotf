@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": "燃料を焚べよ！",
+    "description": "かまどだ！(かまどを入手)",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mefours:fuel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mefours:givecoalblock"
+  }
+}

@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "minecraft:adventure/honey_block_slide",
+    "parent": "mefours:fuel",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
@@ -25,9 +25,7 @@
       }
     },
     "rewards": {
-      "loot": [
-        "minecraft:potion"
-      ]
+      "function": "mefours:givepotion"
     },
     "sends_telemetry_event": true
   }

@@ -1,15 +1,16 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:redstone_lamp"
+        "id": "minecraft:blue_ice"
       },
-      "title": "先を照らす道標",
-      "description": "難しいゲームのやり方を教えてくれるだろう...(作業台を入手)",
+      "title": "その水冷えてる？",
+      "description": "ネザーは熱いよ？差し入れにどうぞ(水入り瓶を10個入手)",
       "background": "minecraft:textures/block/oak_planks.png",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
+    "parent": "mefours:bucket",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
@@ -17,14 +18,17 @@
           "player": [],
           "items": [
             {
-              "items": "minecraft:crafting_table"
+              "items": "minecraft:potion",
+              "count": {
+                "min": 10
+              }
             }
           ]
         }
       }
     },
     "rewards": {
-      "function": "mefours:giverl"
+      "function": "mefours:giveblueice"
     },
     "sends_telemetry_event": true
   }

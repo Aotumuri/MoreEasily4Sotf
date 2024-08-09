@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:coal_block"
+        "id": "minecraft:coal"
       },
       "title": "燃料！",
       "description": "重要なものとなるだろう。(石炭を入手)",
@@ -18,16 +18,14 @@
           "player": [],
           "items": [
             {
-              "items": "minecraft:coal"
+              "items": "minecraft:coal_ore"
             }
           ]
         }
       }
     },
     "rewards": {
-      "loot": [
-        "minecraft:blocks/coal_block"
-      ]
+        "function": "mefours:givecoalblock"
     },
     "sends_telemetry_event": true
   }

@@ -1,0 +1,1 @@
+give @p coal_block 1
