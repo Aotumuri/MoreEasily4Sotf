@@ -1,5 +1,5 @@
 # MoreEasily4Sotf
-A data pack that adds achievements and other features to make Survival of the Fittest more fun and easier.<br>
+A datapack that adds achievements and other features to make Survival of the Fittest more fun and easier.<br>
 This data pack is designed to be played in the Nightmare Mode of [Minecraft-Survival-of-the-Fittest](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest).
 This is an unofficial data pack. Special thanks to [chocobaumu](https://github.com/chocobaumu).
 <p align="center">
