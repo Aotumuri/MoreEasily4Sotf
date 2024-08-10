@@ -28,7 +28,7 @@
       }
     },
     "rewards": {
-      "function": "mefours:"
+      "function": "mefours:giveitemforwither"
     },
     "sends_telemetry_event": true
   }
