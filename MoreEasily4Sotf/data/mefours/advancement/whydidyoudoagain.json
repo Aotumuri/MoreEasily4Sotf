@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sugar_cane"
+      },
+      "title": "マジでなんで集めたの",
+      "description": "本当に何に使うの？(ブレイズロッドを1st入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "mefours:blazerod",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:blaze_rod",
+              "count": {
+                "min": 64,
+                "max": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giver"
+    },
+    "sends_telemetry_event": true
+  }
+  

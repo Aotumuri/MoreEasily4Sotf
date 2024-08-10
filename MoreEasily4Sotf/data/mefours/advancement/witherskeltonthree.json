@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull"
+      },
+      "title": "不穏",
+      "description": "何かが召喚できるような(ウィザースケルトンの頭を三つ入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:witherskelton",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:wither_skeleton_skull",
+              "count": {
+                "min": 3
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:"
+    },
+    "sends_telemetry_event": true
+  }
+  
