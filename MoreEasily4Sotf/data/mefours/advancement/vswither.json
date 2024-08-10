@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:coal_block"
+      },
+      "title": "VS. Wither",
+      "description": "危険だ！(ウィザーを召喚)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:witherskeltonthree",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:summoned_entity",
+        "conditions": {
+          "player": [],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:wither"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:morebuffforwither"
+    },
+    "sends_telemetry_event": true
+  }
+  
