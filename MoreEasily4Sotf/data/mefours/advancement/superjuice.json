@@ -9,7 +9,7 @@
         }
       },
       "title": "最強ジュース",
-      "description": "蒸発せず地獄に耐えれるのかな？",
+      "description": "蒸発せず地獄に耐えれるのかな？(スイカジュースを入手)",
       "background": "minecraft:textures/block/oak_planks.png",
       "frame": "challenge",
       "show_toast": true,

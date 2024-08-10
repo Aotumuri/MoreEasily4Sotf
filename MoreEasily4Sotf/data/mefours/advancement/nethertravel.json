@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:netherrack"
+      },
+      "title": "灼熱の地",
+      "description": "ブレイズに気を付けよう...(ネザー入場)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:readynether",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:the_nether"
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:morenetherbuff"
+    },
+    "sends_telemetry_event": true
+  }
+  
