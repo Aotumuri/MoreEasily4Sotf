@@ -1,1 +1,1 @@
-give @p potion 1
+give @p potion[potion_contents={potion:"minecraft:water"}] 1

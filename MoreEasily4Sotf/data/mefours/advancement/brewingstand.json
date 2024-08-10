@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:brewing_stand"
+      },
+      "title": "ポーション！",
+      "description": "お薬！(醸造台を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:blazerod",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:brewing_stand"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveforpotion"
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,1 @@
+give @p blaze_rod 1
