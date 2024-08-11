@@ -26,7 +26,8 @@
   "rewards": {
     "function": "mefours:giverl",
     "recipes": [
-      "mefours:protectionoflamp"
+      "mefours:protectionoflamp_attack",
+      "mefours:protectionoflamp_buff"
     ]
   },
   "sends_telemetry_event": true
