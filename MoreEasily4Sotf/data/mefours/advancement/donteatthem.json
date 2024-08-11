@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "title": "食うなよ？",
+      "description": "なぜそんなに持っている？(腐った肉を1st入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "mefours:rottenflesh",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:rotten_flesh",
+              "count": {
+                "min": 640
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giver"
+    },
+    "sends_telemetry_event": true
+  }
+  
