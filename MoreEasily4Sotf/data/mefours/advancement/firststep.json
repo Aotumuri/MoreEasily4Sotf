@@ -1,31 +1,33 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:redstone_lamp"
-      },
-      "title": "先を照らす道標",
-      "description": "難しいゲームのやり方を教えてくれるだろう...(作業台を入手)",
-      "background": "minecraft:textures/block/oak_planks.png",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_lamp"
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [],
-          "items": [
-            {
-              "items": "minecraft:crafting_table"
-            }
-          ]
-        }
+    "title": "先を照らす道標",
+    "description": "難しいゲームのやり方を教えてくれるだろう...(作業台を入手)",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "mefours:giverl"
-    },
-    "sends_telemetry_event": true
-  }
-  
+    }
+  },
+  "rewards": {
+    "function": "mefours:giverl",
+    "recipes": [
+      "mefours:protectionoflamp"
+    ]
+  },
+  "sends_telemetry_event": true
+}
