@@ -4,7 +4,7 @@
         "id": "minecraft:rotten_flesh"
       },
       "title": "食うなよ？",
-      "description": "なぜそんなに持っている？(腐った肉を1st入手)",
+      "description": "なぜそんなに持っている？(腐った肉を10st入手)",
       "background": "minecraft:textures/block/oak_planks.png",
       "frame": "challenge",
       "show_toast": true,
