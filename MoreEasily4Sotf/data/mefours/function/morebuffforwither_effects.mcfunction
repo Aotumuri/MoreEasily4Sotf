@@ -1,9 +1,13 @@
 #不思議なランプ : witherだ！道でバフをかけよう！勝てよ！！
 give @s golden_apple 5
 give @s arrow 64
+#rの個数を検知する
 execute at @p run tag @s add wither_morebuff_mefours
-execute as @a[tag=wither_morebuff_mefours] if entity @s[nbt={Inventory:[{id:"minecraft:redstone_lamp",Count:1b,tag:{display:{Name:'{"color":"yellow","italic":false,"text":"先を照らす道標"}',Lore:['{"color":"gray","italic":true,"text":"難しいゲームのやり方を教えてくれるだろう..."}'],Enchantments:[{id:"minecraft:vanishing_curse",lvl:1}]}}}]}] if entity @s[nbt={Inventory:[{id:"minecraft:redstone",Count:3b..,tag:{display:{Name:'{"bold":true,"color":"red","text":"道"}',Enchantments:[{id:"minecraft:vanishing_curse",lvl:1}]}}}]}] run function mefours:morebuffforwither_moreeffects
+scoreboard objectives add sr_items dummy
+execute as @p store result score @s sr_items run clear @s minecraft:redstone[custom_data={sr:true}] 0
+execute as @a[tag=wither_morebuff_mefours] if score @s sr_items matches 3.. run function mefours:morebuffforwither_moreeffects
 execute as @a[tag=wither_morebuff_mefours] run tag @s remove wither_morebuff_mefours
+#ノーマルの処理！
 effect give @s absorption 120 4
 effect give @s resistance 30 2
 effect give @s regeneration 120 1
