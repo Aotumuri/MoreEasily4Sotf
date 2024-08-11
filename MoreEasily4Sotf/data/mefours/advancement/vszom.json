@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "title": "おお怖い、ゾンビだ！",
+      "description": "溶岩を持つことが多く水が有効。遠距離を持って戦おう！(水バケツを入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:diasword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:water_bucket"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:givearrow"
+    },
+    "sends_telemetry_event": true
+  }
+  

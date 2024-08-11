@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "title": "毒が厄介洞窟グモ",
+      "description": "遠距離だと毒が厄介。近距離で戦うべきだな。(ネザーライト剣を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:diasword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:netherite_sword"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveenchantedbook_sharpnessfive"
+    },
+    "sends_telemetry_event": true
+  }
+  

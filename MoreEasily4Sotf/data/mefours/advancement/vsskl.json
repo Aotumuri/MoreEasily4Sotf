@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bone"
+      },
+      "title": "足が速い遠距離攻撃のスケルトン",
+      "description": "足が早く近距離戦は無理だ。盾が必須だろう。無論遠距離攻撃で応戦しよう。(盾を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:diasword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:shield"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:givearrow"
+    },
+    "sends_telemetry_event": true
+  }
+  

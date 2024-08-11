@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cobweb"
+      },
+      "title": "蜘蛛の巣をばら撒いている？",
+      "description": "蜘蛛の巣のせいで動きにくくなるな。水バケツで壊そう。極力遠距離で攻撃する方が良さそうだ。(水バケツを入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:diasword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:water_bucket"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:givearrow"
+    },
+    "sends_telemetry_event": true
+  }
+  

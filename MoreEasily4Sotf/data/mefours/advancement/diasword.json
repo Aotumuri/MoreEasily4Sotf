@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond_sword"
+      },
+      "title": "戦いの始まり",
+      "description": "恐ろしい敵がたくさんだ(ダイヤ剣を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:torch",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:diamond_sword"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:givemorefood"
+    },
+    "sends_telemetry_event": true
+  }
+  

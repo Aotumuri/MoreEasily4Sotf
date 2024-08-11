@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "title": "マッチングした敵との勝負！エンダーマン",
+      "description": "周囲の敵を集めプレイヤーを自分のところにワープさせる厄介な能力を持つ。多くのモブと対抗できる装備が必須だ。エンダーマンを追い払う用の水バケツが欲しいな(水バケツを入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:diasword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:water_bucket"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveprotectionoflamp_attack"
+    },
+    "sends_telemetry_event": true
+  }
+  

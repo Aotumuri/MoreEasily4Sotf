@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:phantom_membrane"
+      },
+      "title": "空から矢を放つファントム",
+      "description": "基本透明だが目が光るので見ておくと良い。高速で矢を放ってくるが、無駄に遠距離攻撃をするのはやめた方が良い。盾を構え攻撃を防ぎ、下に降りてきた時に近距離で攻撃しよう(盾を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:diasword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:shield"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveenchantedbook_sharpnessfive"
+    },
+    "sends_telemetry_event": true
+  }
+  

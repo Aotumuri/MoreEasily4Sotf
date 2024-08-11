@@ -1,0 +1,1 @@
+give @p enchanted_book[stored_enchantments={levels:{"minecraft:sharpness":5}}]

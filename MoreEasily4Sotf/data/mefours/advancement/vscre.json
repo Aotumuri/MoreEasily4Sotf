@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:gunpowder"
+      },
+      "title": "飛んでくるし透明になるし！クリーパー！",
+      "description": "透明になったりするので目が離せない。帯電クリーパーは爆発するとTNTをばら撒くので危険。爆発を防ぐ盾が必須だろう。倒すなら遠距離だ。(盾を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:diasword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:shield"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:givearrow"
+    },
+    "sends_telemetry_event": true
+  }
+  
