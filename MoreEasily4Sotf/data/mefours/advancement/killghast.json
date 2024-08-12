@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ghast_tear"
+      },
+      "title": "ガスト討伐",
+      "description": "再生のポーションとか作れるね。(ガストを討伐)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:vsghast",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:bow"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveprotectionoflamp_buff"
+    },
+    "sends_telemetry_event": true
+  }
+  
