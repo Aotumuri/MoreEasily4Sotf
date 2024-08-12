@@ -1,0 +1,13 @@
+playsound minecraft:block.wooden_button.click_on master @a ~ ~ ~ 1 2 1
+# ME4S >> usefullcpmmands
+# ME4S >> 文章をクリックしてもコマンドは動きます。
+tellraw @s ["",{"text":"ME4S >> usefullcpmmands","color":"gray"},{"text":"\n"},{"text":"ME4S >> \u6587\u7ae0\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u3082\u30b3\u30de\u30f3\u30c9\u306f\u52d5\u304d\u307e\u3059\u3002","color":"gray"}]
+# MoreEasily4Sotf >> ランプの保護の瓶が欲しい！
+# ./function mefours:giveprotectionoflamps
+tellraw @s ["",{"text":"MoreEasily4Sotf","color":"aqua","clickEvent":{"action":"run_command","value":"/function mefours:giveprotectionoflamps"}},{"text":" >>","color":"yellow","clickEvent":{"action":"run_command","value":"/function mefours:giveprotectionoflamps"}},{"text":" \u30e9\u30f3\u30d7\u306e\u4fdd\u8b77\u306e\u74f6\u304c\u6b32\u3057\u3044\uff01\n","clickEvent":{"action":"run_command","value":"/function mefours:giveprotectionoflamps"}},{"text":"./function mefours:giveprotectionoflamps","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mefours:giveprotectionoflamps"}}]
+# MoreEasily4Sotf >> 先を照らす道標が欲しい！
+# ./function mefours:giverl
+tellraw @s ["",{"text":"MoreEasily4Sotf","color":"aqua","clickEvent":{"action":"run_command","value":"/function mefours:giverl"}},{"text":" >>","color":"yellow","clickEvent":{"action":"run_command","value":"/function mefours:giverl"}},{"text":" ","clickEvent":{"action":"run_command","value":"/function mefours:giverl"}},{"text":"\u5148\u3092\u7167\u3089\u3059\u9053\u6a19","color":"yellow","clickEvent":{"action":"run_command","value":"/function mefours:giverl"}},{"text":"\u304c\u6b32\u3057\u3044\uff01\n","clickEvent":{"action":"run_command","value":"/function mefours:giverl"}},{"text":"./function mefours:giverl","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mefours:giverl"}}]
+# MoreEasily4Sotf >> 道が欲しい！
+# ./function mefours:giver
+tellraw @s ["",{"text":"MoreEasily4Sotf","color":"aqua","clickEvent":{"action":"run_command","value":"/function mefours:giver"}},{"text":" >>","color":"yellow","clickEvent":{"action":"run_command","value":"/function mefours:giver"}},{"text":" ","clickEvent":{"action":"run_command","value":"/function mefours:giver"}},{"text":"\u9053","color":"red","clickEvent":{"action":"run_command","value":"/function mefours:giver"}},{"text":"\u304c\u6b32\u3057\u3044\uff01\n","clickEvent":{"action":"run_command","value":"/function mefours:giver"}},{"text":"./function mefours:giver","color":"dark_gray","clickEvent":{"action":"run_command","value":"/function mefours:giver"}}]
