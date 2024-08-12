@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:blaze_rod"
+      },
+      "title": "遠距離が効かない！？ブレイズ！",
+      "description": "ブレイズには遠距離攻撃は弾かれる。近距離攻撃でないといけない。放ってくる溶岩弾は絶対避けろ！(ネザーライト剣を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:netheritesword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:netherite_sword"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveprotectionoflamp_buff"
+    },
+    "sends_telemetry_event": true
+  }
+  

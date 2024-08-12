@@ -1,0 +1,12 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "rewards": {
+        "function": "mefours:advancement"
+      },
+    "sends_telemetry_event": false
+  }
+  

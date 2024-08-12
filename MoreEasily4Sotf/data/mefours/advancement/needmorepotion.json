@@ -12,21 +12,10 @@
     },
     "parent": "mefours:bucket",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [],
-          "items": [
-            {
-              "items": "minecraft:potion",
-              "count": {
-                "min": 10
-              }
-            }
-          ]
-        }
-      }
-    },
+         "requirement": {
+           "trigger": "minecraft:impossible"
+         }
+       },
     "rewards": {
       "function": "mefours:giveblueice"
     },

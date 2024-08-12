@@ -3,7 +3,7 @@
       "icon": {
         "id": "minecraft:ender_pearl"
       },
-      "title": "マッチングした敵との勝負！エンダーマン",
+      "title": "マッチした敵との勝負！エンダーマン",
       "description": "周囲の敵を集めプレイヤーを自分のところにワープさせる厄介な能力を持つ。多くのモブと対抗できる装備が必須だ。エンダーマンを追い払う用の水バケツが欲しいな(水バケツを入手)",
       "background": "minecraft:textures/block/oak_planks.png",
       "show_toast": true,

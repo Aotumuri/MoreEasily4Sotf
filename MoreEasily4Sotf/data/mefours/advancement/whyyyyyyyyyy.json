@@ -1,22 +1,22 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:blaze_rod"
+        "id": "minecraft:rotten_flesh"
       },
-      "title": "マジでなんで集めたの",
-      "description": "本当に何に使うの？(ブレイズロッドを1st入手)",
+      "title": "まじでなんなの？",
+      "description": "それ絶対に食うなよ？まじで！！！(腐った肉を36st入手)",
       "background": "minecraft:textures/block/oak_planks.png",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": true
     },
-    "parent": "mefours:blazerod",
+    "parent": "mefours:donteatthem",
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
-    },
+        "requirement": {
+          "trigger": "minecraft:impossible"
+        }
+      },
     "rewards": {
       "function": "mefours:giver"
     },

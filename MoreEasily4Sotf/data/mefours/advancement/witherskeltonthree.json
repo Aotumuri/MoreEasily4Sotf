@@ -13,18 +13,7 @@
     "parent": "mefours:witherskelton",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [],
-          "items": [
-            {
-              "items": "minecraft:wither_skeleton_skull",
-              "count": {
-                "min": 3
-              }
-            }
-          ]
-        }
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "title": "群れて危険！ゾンビピグリン！",
+      "description": "あいつらは群れるだけで特殊のバフがつくからとにかく群れてないところを狙おう。黄色のオーラがあったら逃げれるなら逃げるべき。遠距離が効くかもしれん(弓を入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:netheritesword",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:bow"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:givearrow"
+    },
+    "sends_telemetry_event": true
+  }
+  

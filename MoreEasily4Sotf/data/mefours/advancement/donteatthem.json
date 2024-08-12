@@ -14,18 +14,7 @@
     "parent": "mefours:rottenflesh",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [],
-          "items": [
-            {
-              "items": "minecraft:rotten_flesh",
-              "count": {
-                "min": 640
-              }
-            }
-          ]
-        }
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

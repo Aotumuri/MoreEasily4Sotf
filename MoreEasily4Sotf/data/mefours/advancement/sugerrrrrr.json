@@ -14,19 +14,7 @@
     "parent": "mefours:torch",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [],
-          "items": [
-            {
-              "items": "minecraft:sugar_cane",
-              "count": {
-                "min": 640,
-                "max": 0
-              }
-            }
-          ]
-        }
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {

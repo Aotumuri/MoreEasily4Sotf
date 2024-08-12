@@ -14,18 +14,7 @@
     "parent": "mefours:torch",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [],
-          "items": [
-            {
-              "items": "minecraft:iron_block",
-              "count": {
-                "min": 64
-              }
-            }
-          ]
-        }
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {
