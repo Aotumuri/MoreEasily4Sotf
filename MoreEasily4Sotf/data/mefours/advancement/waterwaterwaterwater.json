@@ -1,16 +1,17 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:rotten_flesh"
+        "id": "minecraft:water_bucket"
       },
-      "title": "おお怖い、ゾンビだ！",
-      "description": "溶岩を持つことが多く水が有効。遠距離を持って戦おう！盾持ちとトライデントには気をつけろ！(水バケツを入手)",
+      "title": "水祭り！",
+      "description": "わーい！(水バケツを10個入手)",
       "background": "minecraft:textures/block/oak_planks.png",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": true
     },
-    "parent": "mefours:diasword",
+    "parent": "mefours:drinkwater",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:inventory_changed",
@@ -18,14 +19,18 @@
           "player": [],
           "items": [
             {
-              "items": "minecraft:water_bucket"
+              "items": "minecraft:water_bucket",
+              "count": {
+                "min": 10,
+                "max": 0
+              }
             }
           ]
         }
       }
     },
     "rewards": {
-      "function": "mefours:givearrow"
+      "function": "mefours:morewaterandgiver"
     },
     "sends_telemetry_event": true
   }

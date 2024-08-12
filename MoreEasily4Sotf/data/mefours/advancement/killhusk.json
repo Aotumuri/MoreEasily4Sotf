@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "title": "ハスク討伐",
+      "description": "瓶を落とすから水分補給が楽になるか？まぁ周りに水はないだろうが。(ハスクを討伐)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:vszom",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:husk"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveprotectionoflamp_buff"
+    },
+    "sends_telemetry_event": true
+  }
+  

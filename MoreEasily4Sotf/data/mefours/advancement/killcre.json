@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:gunpowder"
+      },
+      "title": "クリーパー討伐",
+      "description": "火薬はグレネードの素材となる。遠距離では強い方だ。(クリーパーを討伐)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:vscre",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:creeper"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveprotectionoflamp_buff"
+    },
+    "sends_telemetry_event": true
+  }
+  
