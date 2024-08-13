@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "title": "終わりへ",
+      "description": "そろそろだ。(エンダーアイを入手)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:nethertravel",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": "minecraft:ender_eye"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:protectionoflamp_attack"
+    },
+    "sends_telemetry_event": true
+  }
+  
