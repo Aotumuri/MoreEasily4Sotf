@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": "遠距離攻撃ピグリン！",
+    "description": "ピグリンにはたくさんの種類がいる。その中の一つが遠距離攻撃をするピグリンだ。こちらも遠距離攻撃をすれば楽だが、相手が爆発する弓を放ってきたら、近距離で戦った方がいい。あとは、装備を見て判断だ。(弓を入手)",
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mefours:netheritesword",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bow"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mefours:givearrow"
+  },
+  "sends_telemetry_event": true
+}

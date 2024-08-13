@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "title": "ゾンビピグリン討伐",
+      "description": "周りから追加のゾンビピグリンはきてないか？(ゾンビピグリンを討伐)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:vszompig",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:zombified_piglin"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:giveprotectionoflamp_buff"
+    },
+    "sends_telemetry_event": true
+  }
+  
