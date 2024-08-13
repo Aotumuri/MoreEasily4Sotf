@@ -1,4 +1,5 @@
 #不思議なランプ : witherだ！道でバフをかけよう！勝てよ！！
+tellraw @p ["",{"text":"\u4e0d\u601d\u8b70\u306a\u30e9\u30f3\u30d7","bold":true,"color":"yellow"},{"text":" : ","color":"gray"},{"text":"wither\u3060\uff01","color":"#8B949E"},{"text":"\u9053","color":"red"},{"text":"\u3067\u30d0\u30d5\u3092\u304b\u3051\u3088\u3046\uff01\u52dd\u3066\u3088\uff01\uff01","color":"#8B949E"}]
 give @s golden_apple 5
 give @s arrow 64
 #rの個数を検知する

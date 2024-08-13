@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:end_stone"
+      },
+      "title": "終焉の地",
+      "description": "さぁ、ボス戦と行こうじゃあないか...(ネザー入場)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:readynether",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:the_end"
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:moreendbuff"
+    },
+    "sends_telemetry_event": true
+  }
+  
