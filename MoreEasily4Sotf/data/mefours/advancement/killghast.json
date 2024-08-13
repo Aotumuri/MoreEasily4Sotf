@@ -13,13 +13,11 @@
     "parent": "mefours:vsghast",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:inventory_changed",
+        "trigger": "minecraft:player_killed_entity",
         "conditions": {
-          "items": [
-            {
-              "items": "minecraft:bow"
-            }
-          ]
+          "entity": {
+            "type": "minecraft:ghast"
+          }
         }
       }
     },
