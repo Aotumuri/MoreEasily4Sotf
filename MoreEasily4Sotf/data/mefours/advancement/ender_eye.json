@@ -25,7 +25,7 @@
       }
     },
     "rewards": {
-      "function": "mefours:protectionoflamp_attack"
+      "function": "mefours:giveprotectionoflamp_attack"
     },
     "sends_telemetry_event": true
   }
