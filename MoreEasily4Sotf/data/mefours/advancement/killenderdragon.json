@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:netherite_upgrade_smithing_template"
+      },
+      "title": "さらなる地獄へ",
+      "description": "新たなるボスへの挑戦へ(エンダードラゴンを倒す)",
+      "background": "minecraft:textures/block/oak_planks.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "mefours:endtravel",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": [],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:ender_dragon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mefours:givenetherite_upgrade_smithing_template"
+    },
+    "sends_telemetry_event": true
+  }
+  

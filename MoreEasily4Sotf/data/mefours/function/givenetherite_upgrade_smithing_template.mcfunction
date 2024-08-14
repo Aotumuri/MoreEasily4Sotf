@@ -1,0 +1,1 @@
+give @p netherite_upgrade_smithing_template 4
