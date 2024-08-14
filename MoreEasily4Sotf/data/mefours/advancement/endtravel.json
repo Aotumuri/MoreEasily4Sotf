@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "mefours:readynether",
+    "parent": "mefours:stronghold",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:changed_dimension",
