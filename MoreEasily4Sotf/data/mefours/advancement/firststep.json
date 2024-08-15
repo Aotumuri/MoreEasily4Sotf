@@ -27,7 +27,8 @@
     "function": "mefours:giverl",
     "recipes": [
       "mefours:protectionoflamp_attack",
-      "mefours:protectionoflamp_buff"
+      "mefours:protectionoflamp_buff",
+      "mefours:protectionoflamp_debuff"
     ]
   },
   "sends_telemetry_event": true

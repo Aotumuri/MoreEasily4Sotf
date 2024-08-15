@@ -1,29 +1,29 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "misc",
-    "pattern": [
-      " R ",
-      "RWR",
-      " R "
-    ],
-    "key": {
-      "R": {
-        "item": "minecraft:redstone_block"
-      },
-      "W": {
-        "item": "minecraft:potion"
-      }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "RWR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:gold_block"
     },
-    "result": {
-      "id": "minecraft:splash_potion",
-      "count": 2,
-      "components": {
-        "minecraft:custom_name": "\"ランプの保護の魔法の瓶\"",
-        "minecraft:potion_contents": {
-          "custom_color": 16725527
-        },
-        "minecraft:lore": ["\"周りのものに多くのダメージを与える消耗品\""],
-        "minecraft:max_stack_size": 2
-      }
+    "W": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "id": "minecraft:splash_potion",
+    "count": 2,
+    "components": {
+      "minecraft:custom_name": "\"ランプの保護の魔法の瓶\"",
+      "minecraft:potion_contents": {
+        "custom_color": 16777019
+      },
+      "minecraft:lore": ["\"近くのプレイヤーにバフを与える消耗品\""],
+      "minecraft:max_stack_size": 2
     }
   }
+}

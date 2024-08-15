@@ -29,7 +29,10 @@
       }
     },
     "rewards": {
-      "function": "mefours:givenetherite_upgrade_smithing_template"
+      "function": "mefours:givenetherite_upgrade_smithing_template",
+      "recipes": [
+        "mefours:superprotectionoflamp_attack"
+      ]
     },
     "sends_telemetry_event": true
   }

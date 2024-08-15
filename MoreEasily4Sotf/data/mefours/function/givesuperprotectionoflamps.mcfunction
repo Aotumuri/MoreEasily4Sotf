@@ -1,0 +1,1 @@
+give @p splash_potion[custom_name='{"bold":true,"color":"yellow","text":"ランプの加護の魔法の瓶"}',lore=['"周りのものにとっても多くのダメージを与える消耗品"'],enchantments={levels:{"minecraft:unbreaking":1}},potion_contents={custom_color:16725526}] 1
