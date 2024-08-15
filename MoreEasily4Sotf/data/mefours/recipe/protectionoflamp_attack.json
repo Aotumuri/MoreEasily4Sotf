@@ -23,7 +23,7 @@
           "custom_color": 16725527
         },
         "minecraft:lore": ["\"周りのものに多くのダメージを与える消耗品\""],
-        "minecraft:max_stack_size": 2
+        "minecraft:max_stack_size": 64
       }
     }
   }
