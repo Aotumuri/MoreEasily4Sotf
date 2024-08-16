@@ -11,7 +11,7 @@
       "announce_to_chat": true,
       "hidden": true
     },
-    "parent": "mefours:torch",
+    "parent": "mefours:furnace",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
